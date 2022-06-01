@@ -1,0 +1,244 @@
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120px;
+    color: #FFFFFF;
+    margin: 0;
+}
+h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 80px;
+    color: #BDAE82;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #04010c;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header_title p{
+    font-size: 30px;
+}
+.future p{
+    font-size: 20px;
+    color: #fecb00;
+}
+
+.foto img{
+    width: 300px;
+    margin-top: 5rem;
+    border: 3px solid #fecb00;
+    padding: 10px;
+}
+
+.skilss{
+    border: 1px solid #fecb00 ;
+    padding: 20px;
+}
+
+.about_block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+.about{
+    max-width: 640px;
+    border: 1px solid #fecb00 ;
+    padding: 20px;
+}
+.about p{
+    line-height: 2em;
+}
+.contact_block, .lang, .code{
+    border: 1px solid #fecb00 ;
+    padding: 20px;
+}
+.header-menu {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.skils_block{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-menu__item {
+    position: relative;
+    margin-right: 20px;
+}
+.header-menu__item::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    background-color: #202026;
+    transition: .5s width ease-in-out;
+}
+.header-menu__link {
+    color: #ffffff;
+    font-weight: 600;
+}
+.footer_block{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.year h2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #04010c;
+    padding-left: 100px;
+}
+.footer{
+    background-color: #fecb00;
+    margin-top: 5rem;
+}
+.education_block {
+    margin-top: 5rem;
+}
+.education_title{
+    border: 1px solid #fecb00;
+    padding: 20px;
+}
+
+.code img{
+    max-width: 520px;
+}
+.pole{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5rem;
+    margin-left: -3.5rem;
+    flex-wrap: wrap;
+}
+.education_block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.marker{
+    list-style: none;
+    margin-left: -3rem;
+}
+.marker li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.marker li p{
+    color: #BDAE82;
+    font-size: 18px;
+}
+.lang a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+.git img{
+    width: 200px;
+}
+.rs img{
+    width: 200px;
+}
+.rs{
+    padding-left: 100px;
+}
+
+
+@media only screen and (max-width: 1140px) {
+    .wrapper {
+        max-width: 900px;
+        margin: auto;
+    }
+    .about{
+        max-width: 900px;
+    }
+    .contact_block, .code{
+        margin-top: 5rem;
+        width: 900px;
+    }
+.skilss{
+    width: 900px;
+}
+    .pole{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .wrapper {
+        max-width: 500px;
+        margin: auto;
+    }
+    .lang{
+        margin-top: 5rem;
+    }
+    .rs{
+        margin-left: 0;
+    }
+    .pole{
+        justify-content: start;
+    }
+    .education_title{
+       width: 500px;
+    }
+        .rs {
+            padding-left: 40px;
+        }
+    .year h2{
+       padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .wrapper {
+        max-width: 300px;
+        margin: auto;
+    }
+    .rs{
+        padding-left: 0;
+        margin-top: 5rem;
+    }
+    .lang{
+        width: 300px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .foto img {
+        width: 270px;
+    }
+    .header_title p{
+        font-size: 20px;
+    }
+}
