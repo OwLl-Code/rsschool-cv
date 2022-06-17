@@ -99,15 +99,7 @@ body{
     position: relative;
     margin-right: 20px;
 }
-.header-menu__item::before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 0%;
-    bottom: 0;
-    background-color: #202026;
-    transition: .5s width ease-in-out;
-}
+
 .header-menu__link {
     color: #ffffff;
     font-weight: 600;
