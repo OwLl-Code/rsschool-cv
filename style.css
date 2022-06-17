@@ -76,6 +76,13 @@ body{
     border: 1px solid #fecb00 ;
     padding: 20px;
 }
+.code_bl{
+    display: flex;
+}
+.marker_navigation{
+    display: flex;
+}
+
 .header-menu {
     height: 20%;
     display: flex;
@@ -191,6 +198,7 @@ body{
         justify-content: center;
     }
 }
+
 
 @media only screen and (max-width: 900px) {
     .wrapper {
