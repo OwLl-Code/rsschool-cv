@@ -5,7 +5,7 @@
 ### Telegram, Viber
 
 ## E-mail: Lenavikenteva414@gmail.com
-## E-mail: Lenavikenteva@mail.ru
+
 
 ### [**GitHub**]('https://github.com/OwLl-Code")
 ### [**LinkedIn**]('https://www.linkedin.com/in/%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0-%D0%B2%D0%B8%D0%BA%D0%B5%D0%BD%D1%82%D1%8C%D0%B5%D0%B2%D0%B0-641a25200/")
@@ -39,7 +39,7 @@ Get a job at the frontend IT company as a frontend developer.
 * Editors: PhpStorm, VS Code, Sublime Text, Notepad++
 * CMS WordPress, tilda, bitrix, miro
 * Figma, Adobe Photoshop
-* JavaScript Basics
+
 
 
 # **Code example:**
